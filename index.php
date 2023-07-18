@@ -46,7 +46,12 @@ include "proses.php"; ?>
                                 <option value="RJ Poli Umum">RJ Poli Umum</option>
                                 <option value="RJ Obsgyn">RJ Obsgyn</option>
                                 <option value="Rekam Medis">Rekam Medis</option>
-
+                                <!-- RAWAT INAP -->
+                                <option value="RI ISOLASI">RI ISOLASI</option>
+                                <option value="RI HCU-ICU">RI HCU-ICU</option>
+                                <option value="RI MATAHARI">RI MATAHARI</option>
+                                <option value="RI KRISAN">RI KRISAN</option>
+                                <option value="RI TULIP-LILI">RI TULIP-LILI</option>
                             </select>
                         </div>
                         <!-- <div class="mb-3 mt-3">

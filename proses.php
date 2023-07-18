@@ -29,6 +29,9 @@ if (isset($_POST['save'])) {
             // 'text' => $tanggal
         ];
         $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data));
+        echo "<script>
+        window.location.href='index.php'
+        </script>";
     } else {
         die(print_r(sqlsrv_errors(), true));
     }
